@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SMK Pancasila Seputih Mataram</title>
+    <style>
+        /* Menghilangkan margin bawaan browser */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Mencegah scroll ganda pada body */
+        }
+
+        /* Membuat iframe memenuhi seluruh layar */
+        .full-screen-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full-screen-container">
+        <iframe 
+            src="https://h0gxpa8juqe1-d.space.z.ai/" 
+            allowfullscreen="true"
+            webkitallowfullscreen="true" 
+            mozallowfullscreen="true">
+        </iframe>
+    </div>
+
+</body>
+</html>
